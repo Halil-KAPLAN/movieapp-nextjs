@@ -6,7 +6,7 @@ Explore the live demo: https://
 
 ## Tech Stack
 
-**Client:** Next.js, Tailwind CSS, TypeScript
+**Client:** Next.js, tailwindcss, next-themes, react-icons, TypeScript
 
 ![alt text](public/screenshots/ss1.png?raw=true)
 ![alt text](public/screenshots/ss2.png?raw=true)

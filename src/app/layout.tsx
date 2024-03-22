@@ -3,6 +3,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Providers from "./Providers";
 import Tabs from "@/components/Tabs";
+import { Suspense } from "react";
 
 export const metadata: Metadata = {
   title: "MovieApp",
@@ -19,7 +20,9 @@ export default function RootLayout({
       <body>
         <Providers>
           <Header />
-          <Tabs />
+          <Suspense>
+            <Tabs />
+          </Suspense>
           {children}
         </Providers>
       </body>
