@@ -2,7 +2,7 @@
 
 In this example I made with Next.js, I designed an example that allows you to show films using the api in themoviedb.org.
 
-Explore the live demo: https://
+Explore the live demo: https://movieapp-nextjs-omega.vercel.app/
 
 ## Tech Stack
 
